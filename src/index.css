@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FullCalendar styles */
+.fc {
+  height: 80vh !important;
+}
+
+.fc-header-toolbar {
+  padding: 1rem 0;
+}
+
+.fc-view {
+  background: white;
+}
+
+.fc td {
+  border: 1px solid #ddd;
+}
